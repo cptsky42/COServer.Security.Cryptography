@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Native">
+      <UniqueIdentifier>{d67f4aae-a7f8-4584-9f3b-a9677c03882f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managed">
+      <UniqueIdentifier>{f68851f8-fd88-4aa1-9a5d-fdce515e9e9c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="instructionset.cpp">
+      <Filter>Native</Filter>
+    </ClCompile>
+    <ClCompile Include="AssemblyInfo.cpp">
+      <Filter>Managed</Filter>
+    </ClCompile>
+    <ClCompile Include="tqcipher.cpp">
+      <Filter>Managed</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tqcipher_base.h">
+      <Filter>Native</Filter>
+    </ClInclude>
+    <ClInclude Include="tqcipher_avx2.h">
+      <Filter>Native</Filter>
+    </ClInclude>
+    <ClInclude Include="tqcipher_sse2.h">
+      <Filter>Native</Filter>
+    </ClInclude>
+    <ClInclude Include="tqcipher_std.h">
+      <Filter>Native</Filter>
+    </ClInclude>
+    <ClInclude Include="instructionset.h">
+      <Filter>Native</Filter>
+    </ClInclude>
+    <ClInclude Include="tqcipher.h">
+      <Filter>Managed</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="win32.rc" />
+  </ItemGroup>
+</Project>
