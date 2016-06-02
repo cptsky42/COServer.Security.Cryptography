@@ -1,15 +1,14 @@
-                         COServer.Security.Cryptography
-                        --------------------------------
-
-                     Copyright (C) 2015 Jean-Philippe Boivin
-            https://github.com/COPS-Projects/COServer.Security.Cryptography
-
 Overview
 --------
 
 COServer.Security.Cryptography is a library exposing the TQ Digitial's asymmetric cipher that is used by Conquer Online 2.0 servers (pre-5018).
 
 The library is developed in C++, with an translation layer in C++/CLI.
+
+License
+-------
+
+The library is released under a BSD 2-clause license.
 
 Features
 --------
